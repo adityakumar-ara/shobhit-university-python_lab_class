@@ -1,4 +1,4 @@
-string = input("enter any string")
+string = input("enter any string: ")
 while(1):
    print("Enter 1. for find frequncy of character in string")
    print("Enter 2. replace charater another charector")
