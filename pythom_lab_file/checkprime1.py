@@ -15,18 +15,34 @@
 
 # print(0.7+0.2==0.9)
 
-vowels_list = "aeiouAEIOU"
-user_input = input("Enter any string: ")
+# vowels_list = "aeiouAEIOU"
+# user_input = input("Enter any string: ")
 
-vc = 0
-cc = 0
+# vc = 0
+# cc = 0
 
-for i in user_input:
-    # if char.isalpha():  # Check if the character is a letter (ignore spaces/numbers)
-        if i in vowels_list:
-            vc += 1
-        else:
-            cc += 1
+# for i in user_input:
+#     # if char.isalpha():  # Check if the character is a letter (ignore spaces/numbers)
+#         if i in vowels_list:
+#             vc += 1
+#         else:
+#             cc += 1
 
-print("Consonants:", cc)
-print("Vowels:", vc)
+# print("Consonants:", cc)
+# print("Vowels:", vc)
+
+
+
+def checkprime(n):
+    count = 0
+    for i in range(1,n+1):
+     if i%2 ==0:
+        count+=1
+    if count == 2:
+       print("prime number",n)    
+    else:
+       print("not prime",n)   
+
+checkprime(6)
+
+        
